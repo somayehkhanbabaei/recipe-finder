@@ -20,7 +20,7 @@ function RecipeModal({ recipe, onClose }) {
       aria-label={recipe.strMeal}
       tabIndex={-1}
     >
-      <div className="bg-white rounded-lg p-6 max-w-lg w-full relative">
+      <div className="bg-white rounded-lg p-6 max-w-lg w-full relative max-h-[90vh] overflow-y-auto">
         <button
           className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-2xl"
           onClick={onClose}
